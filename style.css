@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* esempio 6 */
+
+/* .blue{
+	height: 240px;
+	background-color: blue;
+	width: calc(100% - 450px);
+	float: left;
+}
+
+.green{
+	height: 240px;
+	background-color: green;
+	float: left;
+	padding: 20px;
+}
+
+.red{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	float: left;
+}
+
+.red:first-child{
+	margin-right: 10px;
+}
+
+@media (max-width: 580px) {
+	.green{
+		display: none;
+	}
+	.blue{
+		width: 100%;
+		float: none;
+	}
+
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* esempio 5 */
+
+/* ul{
+	margin: 50px;
+}
+
+@media (min-width:780px){
+	ul {
+		list-style: none;
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+		background-color: gray;
+		color: white;
+		padding: 5px 20px;
+		text-transform: capitalize;
+	}
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* esempio 4 */
+
+/* .rettangolo{
+	background-color: royalblue;
+	height: 200px;
+}
+
+@media (max-width:480px) {
+	.rettangolo{
+		background-color: green;
+	}
+}
+
+@media (min-width: 1440px) {
+	.rettangolo{
+		background-color: red;
+	}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* esempio 3 */
+
+/* .figura{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+@media (min-width:480px) {
+	.figura{
+		border-radius: 0;
+	}
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* esempio 2 */
+/* 
+img{
+	max-width: 200px;
+	border: 1px solid red;
+	display: block;
+	margin: 10px auto;
+}
+
+@media (min-width:568px) {
+	.container{
+		max-width: 450px;
+		margin: auto;
+		text-align: center;
+	}
+	img{
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+@media (min-width:780px) {
+	.container{
+		max-width: 700px;
+	}
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* esempio 1 */
+/* .box{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 20px;
+}
+
+@media screen and (min-width: 479px) {	
+	.box{
+		float: left;
+		background-color: red;
+		margin-right: 0;
+	}
+}
+ */
+
+
+
+
+
+
+
+body{
+	background-color: red;
+}
+
+@media screen and (max-width: 480px) {
+	body{
+		background-color: lightcyan;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px), (min-width: 1440px)  {
+	body{
+		background-color: green;
+	}
+}
+
+/* @media screen and (min-width: 1440px) {
+	body{
+		background-color: blue;
+	}
+}
+ */
+
